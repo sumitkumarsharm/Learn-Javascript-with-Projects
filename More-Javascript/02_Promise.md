@@ -5,6 +5,7 @@ it is object representing the eventual completion or failure of an asynchronous 
 ## Creating a Promise
 
 Example:
+
 ```javascript
 const myPromise = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -34,11 +35,11 @@ Example:
 myPromise
   .then((value) => {
     // Handle fulfillment
-      // return 'Sumit Sharma';
+    // return 'Sumit Sharma';
   })
   .then((value) => {
-      console.log(value);
-    //output:-   sumit Sharma 
+    console.log(value);
+    //output:-   sumit Sharma
   })
   .catch((error) => {
     // Handle rejection
@@ -47,5 +48,3 @@ myPromise
     // Execute code regardless of outcome
   });
 ```
-
-
